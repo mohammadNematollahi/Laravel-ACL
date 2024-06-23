@@ -23,6 +23,55 @@ composer require nematollahi/laravel-acl
   
   4- added role and permission model
 
+
+- migrate
+```php
+php artisan migrate
+```
+
+- add triat HasACLTools into model user
+```php
+
+//app/Models/User.php
+
+use Nematollahi\ACL\Traits\HasACLTools;
+
+class User extends Authenticatable
+{
+    use HasApiTokens, HasFactory, Notifiable , HasACLTools;
+
+enother codes ...
+
+```
+
+- add acl middleware to kernal
+```php
+//app/Http/Kernel.php
+
+'acl' => \App\Http\Middleware\ACL::class,
+```
+
+- call acl in provider
+
+```php
+
+//app/Providers/AppServiceProvider.php
+
+use Nematollahi\ACL\ACL;
+
+ACl::run();
+```
+
+- use in route
+
+```php
+//routes/web.php
+
+Route::get('/', function () {
+    return view('welcome');
+})->middleware("acl:admin");
+```
+
   
 # [For those who read to develop]
 ### Project Structure
