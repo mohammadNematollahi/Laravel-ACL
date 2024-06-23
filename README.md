@@ -10,7 +10,7 @@ composer require nematollahi/laravel-acl
 2- Publish the package configuartion files and add your own models to the list of ACL models
 
 ```php
-    php artisan vendor:publish --provider Nematollahi\ACL\ACLServiceProvider
+php artisan vendor:publish --provider Nematollahi\ACL\ACLServiceProvider
 ```
 
 - The items that are added are:
