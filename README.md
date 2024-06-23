@@ -24,7 +24,8 @@ composer require nematollahi/laravel-acl
   4- added role and permission model
 
 
-- migrate
+
+- # migrate
 ```php
 php artisan migrate
 ```
