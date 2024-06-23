@@ -25,12 +25,12 @@ composer require nematollahi/laravel-acl
 
 
 
-- # migrate
+3- migrate
 ```php
 php artisan migrate
 ```
 
-- add triat HasACLTools into model user
+4- add triat HasACLTools into model user
 ```php
 
 //app/Models/User.php
@@ -45,14 +45,14 @@ enother codes ...
 
 ```
 
-- add acl middleware to kernal
+5- add acl middleware to kernal
 ```php
 //app/Http/Kernel.php
 
 'acl' => \App\Http\Middleware\ACL::class,
 ```
 
-- call acl in provider
+6- call acl in provider
 
 ```php
 
@@ -63,7 +63,7 @@ use Nematollahi\ACL\ACL;
 ACl::run();
 ```
 
-- use in route
+7- use in route
 
 ```php
 //routes/web.php
