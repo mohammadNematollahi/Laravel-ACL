@@ -30,7 +30,7 @@ composer require nematollahi/laravel-acl
 php artisan migrate
 ```
 
-4- add triat HasACLTools into model user
+4- add trait HasACLTools into model user
 ```php
 
 //app/Models/User.php
