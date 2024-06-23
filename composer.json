@@ -1,0 +1,32 @@
+{
+    "name": "nematollahi/laravel-acl",
+    "description": "you can used from acl ( access control list ) in laravel",
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "mohammadNematollahi",
+            "email": "nematollahigit@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Nematollahi\\ACL\\": "src/Nematollahi/ACL/"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nematollahi\\ACL\\ACLServiceProvider"
+            ]
+        }
+    },
+
+    "required": {
+        "php": ">=7.4"
+    }
+
+}
