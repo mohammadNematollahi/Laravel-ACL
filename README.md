@@ -83,8 +83,6 @@ Route::get('/', function () {
 
   - you need have the database ( role , role_user )
 
-    Uploading lv_0_20240624134213.mp4…
-
 
 
 #### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
