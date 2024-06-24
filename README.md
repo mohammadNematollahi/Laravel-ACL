@@ -75,7 +75,7 @@ Route::get('/', function () {
 
 ## how we can use permission in project
 
- - you need have the databases ( permissions , permissions_user )
+ - Databases Required for This Section ( permissions , permissions_user )
 
 
   -   [![Watch the video]()](https://drive.google.com/file/d/13D2bB8IAeb1AF_r4ol1dqJmP498Knrzu/view?usp=sharing)
@@ -84,7 +84,7 @@ Route::get('/', function () {
 
 ## how can i use role in projcect
 
-  - you need have the database ( role , role_user )
+  - Databases Required for This Section ( role , role_user )
 
   -   [![Watch the video]()](https://drive.google.com/file/d/16lktYEBw7-IkM3yVLaAMMlmdJKu8gLVF/view?usp=sharing)
 
