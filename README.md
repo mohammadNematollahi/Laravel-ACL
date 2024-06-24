@@ -83,9 +83,7 @@ Route::get('/', function () {
 
   - you need have the database ( role , role_user )
 
-
-
-Uploading lv_0_20240624134213.mp4…
+    Uploading lv_0_20240624134213.mp4…
 
 
 
