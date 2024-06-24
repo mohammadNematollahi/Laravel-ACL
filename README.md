@@ -87,7 +87,7 @@ Route::get('/', function () {
 
 
 
-### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
+#### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
   
 # [For those who read to develop]
 ### Project Structure
@@ -194,7 +194,7 @@ public function boot()
 
 - This method allows for the creation of gates called permissions
 
-## Tips: This package is written in such a way that you can easily develop it or use design patterns such as proxy , (Just give it a proxy class) . 😎
+#### Tips: This package is written in such a way that you can easily develop it or use design patterns such as proxy , (Just give it a proxy class) . 😎
 
 
 Good Day ... ✔
