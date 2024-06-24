@@ -83,8 +83,7 @@ Route::get('/', function () {
 
   - you need have the database ( role , role_user )
 
-  [![Watch the video](https://ibb.co/NVRZR82)](https://vimeo.com/966555179?share=copy)
-
+<video width="630" height="300" src="https://vimeo.com/966555179?share=copy"></video>
 
 
 
