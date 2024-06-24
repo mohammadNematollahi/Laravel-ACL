@@ -73,6 +73,23 @@ Route::get('/', function () {
 })->middleware("acl:admin");
 ```
 
+## how we can use permission in project
+
+ - you need have the databases ( permissions , permissions_user )
+
+
+
+## how can i use role in projcect
+
+  - you need have the database ( role , role_user )
+
+
+
+Uploading lv_0_20240624134213.mp4…
+
+
+
+## Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
   
 # [For those who read to develop]
 ### Project Structure
@@ -179,7 +196,7 @@ public function boot()
 
 - This method allows for the creation of gates called permissions
 
-Tips: This package is written in such a way that you can easily develop it or use design patterns such as proxy , (Just give it a proxy class) . 😎
+## Tips: This package is written in such a way that you can easily develop it or use design patterns such as proxy , (Just give it a proxy class) . 😎
 
 
 Good Day ... ✔
