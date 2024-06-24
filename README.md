@@ -87,7 +87,7 @@ Route::get('/', function () {
 
 
 
-## Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
+### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
   
 # [For those who read to develop]
 ### Project Structure
