@@ -83,6 +83,9 @@ Route::get('/', function () {
 
   - you need have the database ( role , role_user )
 
+[![Watch the video]([https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg](https://vimeo.com/966555179?share=copy))](videos/demo.mp4)
+
+
 
 
 #### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
