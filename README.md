@@ -91,7 +91,17 @@ Route::get('/', function () {
 ## Tips : In version 1.1.0, you can use this piece of code to check roles. 
 
 ```php
+
+  v1.1.0 =>
+
     ACL::isValidWithRoles(/* ROLES => like => "admin" , "user" , "operator" */);
+
+  v1.0.0 =>
+        $user = auth()->user();
+        if (!$user->hasRoles(/* ROLES => like => "admin" , "user" , "operator" */)) {
+            abort(403);
+        }
+
 ```
 
 
