@@ -20,4 +20,12 @@ class ACL implements IACL
             });
         });
     }
+
+    public static function isValidWithRoles(...$roles)
+    {
+        $user = auth()->user();
+        if (!$user->hasRoles($roles)) {
+            abort(403);
+        }
+    }
 }
