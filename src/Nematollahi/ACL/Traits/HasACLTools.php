@@ -18,7 +18,7 @@ trait HasACLTools
         return $this->belongsToMany(Config::get("acl.permission"));
     }
 
-    protected function hasRoles(array $roles): bool // bool get all current user roles
+    public function hasRoles(array $roles): bool // bool get all current user roles
     {
         foreach ($roles as $role) {
             if ($this->roles->contains("name", $role)) {
