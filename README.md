@@ -88,6 +88,12 @@ Route::get('/', function () {
 
   -   [![Watch the video]()](https://drive.google.com/file/d/16lktYEBw7-IkM3yVLaAMMlmdJKu8gLVF/view?usp=sharing)
 
+## Tips : In version 1.1.0, you can use this piece of code to check roles. 
+
+```php
+    ACL::isValidWithRoles(/* ROLES => like => "admin" , "user" , "operator" */);
+```
+
 
 
 #### Tips: You can also find a connection to roles and permisison in the permission_role table . 👌
